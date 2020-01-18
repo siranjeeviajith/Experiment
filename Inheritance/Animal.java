@@ -6,5 +6,8 @@ public class Animal {
 	void showAnimalDetails(Animal obj) {
 		System.out.println("Animal Type:"+obj.animalType+" AnimalName:"+obj.animalName+" AnimalAge:"+obj.animalAge);
 	}
+	static void printStatic() {
+		System.out.println("Parent Static method");
+	}
 
 }

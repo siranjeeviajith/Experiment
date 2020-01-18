@@ -8,7 +8,7 @@ public class Test {
 		user.getAccountType();
 		user.getMinimumBalance();
 		user.showCurrentBalance();
-		
+		CreateAccount.printStatic();
 		
 
 	}

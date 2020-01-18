@@ -1,5 +1,5 @@
 
-public class Banking implements CreateAccount{
+public class Banking implements CreateAccount,BankTeller{
 	int age;
 	float curBalance=0;
 	String name,mobileNo,address;
@@ -13,9 +13,9 @@ public class Banking implements CreateAccount{
 		this.accountType=accountType;
 		this.curBalance=curBalance;
 	}
-	public void getUserDetails() {
-		System.out.println("UserName:"+name+" Age:"+age+" MobileNo:"+mobileNo+" Address:"+address);
-	}
+//	public void getUserDetails() {
+//		System.out.println("UserName:"+name+" Age:"+age+" MobileNo:"+mobileNo+" Address:"+address);
+//	}
 	public void getAccountType() {
 		System.out.println("Account Type: "+accountType);
 	}
@@ -25,5 +25,8 @@ public class Banking implements CreateAccount{
     }
     public void showCurrentBalance() {
     	System.out.println("Current Balance in your Account:"+curBalance);
+    }
+    static void printStatic() {
+    	System.out.println("Class static method");
     }
 }

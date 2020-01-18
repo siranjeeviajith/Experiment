@@ -59,9 +59,9 @@ public class ExceptionPractice {
 				   /*2) Rule: If the superclass method does not declare an exception, 
 				    * subclass overridden method cannot declare the checked exception but can declare unchecked exception.*/
 				  ParentClass p=new ChildClass();  //rise compile error if it applies above rule.
-				   try{  
-				   p.msg();  
-				   }catch(Exception e){}   
+				  // try{  
+				  // p.msg();  
+				  // }catch(Exception e){}   
 				   /* Custom Exeception implemented.*/
 				   validate("Custom Exception is Executed..");
 

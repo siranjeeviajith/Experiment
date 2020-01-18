@@ -9,6 +9,7 @@ class MainCLS {
 		obj.showAnimalDetails(obj);
 		labrador.showAnimalDetails(labrador);
 		newCat.showAnimalDetails(newCat);
+		newCat.printStatic();
 
 	}
 

@@ -3,6 +3,9 @@
 	int age;
 	String name;
 	String mobileNo;
+	static {
+		System.out.println("Class is loaded");
+	}
 	public PersonalDetails() {//Non Parameterized constructor; 
 		
 	}
