@@ -29,6 +29,7 @@ public class Practice {
       // number=20;
        System.out.print(number);
       // Hashtable map=new 5();
+       StaticClass obj1=new StaticClass();
 	}
 	
 	

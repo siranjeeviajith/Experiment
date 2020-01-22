@@ -2,7 +2,11 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
-public class TestingHashtable {
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class TestingHashtable extends HashMap implements Map {
+	
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -77,6 +81,7 @@ ht	Hashtable<K,V>  (id=33)
 		ht.put(100,"ram9");
 		ht.put(110,"ram10");
 		ht.put(120,"ram11");
+		ht.put("raja",21);
 		/* After exceeding threshold value:
 		 * debug output:
 		 * put() returned	null	
@@ -153,7 +158,7 @@ ht	Hashtable<K,V>  (id=33)
 		 */
 		
 		
-		Map ht1=new HashMap<>();//default Capacity
+		Map ht1=new TestingHashtable();//default Capacity
 		
 		ht1.put(11,"ram0");
 		ht1.put(12,"ram1");
@@ -171,10 +176,12 @@ ht	Hashtable<K,V>  (id=33)
 	  ht1.put(140,"raj");
 	  ht1.put(150,"hari");
 	  ht1.put(160,"rubesh");
-	  ht1.put("hi","kannan");
+	  ht1.put("hariharan","kannan");
+	  
 		
-		System.out.println(ht);
+		//System.out.println(ht);
 		System.out.println(ht1);
+		
 	
 	}
 

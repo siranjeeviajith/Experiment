@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="Practice"/>
 	<classpathentry kind="src" path="ProblemSolving"/>
 	<classpathentry kind="src" path="Hashtable"/>
+	<classpathentry kind="src" path="LIST Implementation"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

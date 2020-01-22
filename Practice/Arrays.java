@@ -1,5 +1,7 @@
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class Arrays {
 	public static int getTotalX(List<Integer> a, List<Integer> b) {
@@ -48,13 +50,34 @@ public class Arrays {
      List<Integer> lis2=new ArrayList<>();
      lis1.add(2);
      lis1.add(4);
-     lis2.add(16);
-     lis2.add(32);
-     lis2.add(96);
-     long startTime = System.currentTimeMillis();
-     getTotalX(lis1,lis2);
-     System.out.println("Time taken by 2 * o(n^2) " + (System.currentTimeMillis() - startTime) + "ms");  
-     
+     lis1.add(16);
+     lis1.add(32);
+     lis1.add(96);
+     lis1.add(123);
+     lis1.add(435);
+     lis1.add(234);
+     lis1.add(100);
+     lis1.add(122);
+     lis1.add(240);
+     lis1.add(350);
+     java.util.Iterator<Integer> itr= lis1.iterator();
+     //while(itr.hasNext()) {
+    // itr.remove();
+    	 System.out.println(itr.next());
+    	 System.out.println(itr.next());
+    	 System.out.println(itr.next());
+    	 System.out.println(itr.next());
+
+    	 System.out.println(itr.next());
+    	 System.out.println(itr.next());
+    	 System.out.println(itr.next());
+
+    	 System.out.println(lis1);
+   // 
+//     long startTime = System.currentTimeMillis();
+//     getTotalX(lis1,lis2);
+//     System.out.println("Time taken by 2 * o(n^2) " + (System.currentTimeMillis() - startTime) + "ms");  
+//     
     		 
 	}
 

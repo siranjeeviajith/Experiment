@@ -18,7 +18,7 @@ public class PerformanceTests {
 	        for (int i=0; i<10000; i++){  
 	            t = t + "Tpoint";  
 	        }
-	        System.out.println("Time taken by Concating with String: "+(System.currentTimeMillis()-startTime)+"ms");  
+	        System.out.println("Time taken by Concating with String: "+(System.currentTimeMillis())+"ms");  
 	}
 
 }
