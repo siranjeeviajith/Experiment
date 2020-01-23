@@ -9,7 +9,7 @@ public class ToStringMethod {
 		this.age=age;
 	}
 	public String toString() {
-		return "RollNo:"+rollNo+" Name:"+student+" Age:"+age;
+		return "RollNo-"+rollNo+" Name-"+student+" Age-"+age;
 		
 	}
 		

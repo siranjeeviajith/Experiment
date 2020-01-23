@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Hello {
+public class CombinationUsingRecursion {
     static void printCombo(int arr[],int index,int combo[],int cInd){
         if(cInd==combo.length){
             for(int ind1=0;ind1<combo.length;ind1++){

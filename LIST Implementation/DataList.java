@@ -68,6 +68,6 @@ public class DataList<E>
      
     private void ensureCapacity() {
         int newSize = elements.length * 2;
-        elements = Arrays.copyOf(elements, newSize);
+       // elements = Arrays.copyOf(elements, newSize);
     }
 }

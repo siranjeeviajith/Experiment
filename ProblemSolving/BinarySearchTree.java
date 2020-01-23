@@ -3,7 +3,7 @@ class Node{
     int value;
     Node left,right;
 }
-public class Hello {
+public class BinarySearchTree {
     static void preOrder(Node curr){
         if(curr!=null){
             System.out.print(curr.value+" ");

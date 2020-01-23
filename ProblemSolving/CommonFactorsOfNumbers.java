@@ -1,5 +1,5 @@
 import java.util.*;
-public class Hello {
+public class CommonFactorsOfNumbers {
     static int GCD(int a,int b){
         if(a==0){
             return b;

@@ -179,7 +179,7 @@ ht	Hashtable<K,V>  (id=33)
 	  ht1.put("hariharan","kannan");
 	  
 		
-		//System.out.println(ht);
+		System.out.println(ht);
 		System.out.println(ht1);
 		
 	

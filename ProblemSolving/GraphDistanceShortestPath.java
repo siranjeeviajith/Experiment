@@ -15,7 +15,7 @@ class Node implements Comparable<Node>{
     // }
 }
 
-public class Hello {
+public class GraphDistanceShortestPath {
     static void bfs(Map<Integer,Set<Node>>map,int node,int arr[]){
         Queue<Node>pq=new PriorityQueue<>();
         Set <Node> visit=new HashSet<>();
