@@ -6,7 +6,8 @@ import java.lang.reflect.Constructor;
 
 	public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
 		
-		PersonalDetails obj6;
+		PersonalDetails obj6=new PersonalDetails();
+		
 	//	System.out.println(obj6);
         //ways to create object
 //		PersonalDetails obj1=new PersonalDetails();//using new Keyword;
@@ -22,6 +23,7 @@ import java.lang.reflect.Constructor;
 //	    System.out.println(obj4.name+" "+obj4.age+" "+obj4.mobileNo);
 //	    
 //	    Main obj5=new Main();//calling Default constructor in main class
+	
+	obj6.callStatic();
 	}
-
 }

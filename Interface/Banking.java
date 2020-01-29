@@ -5,6 +5,7 @@ public class Banking implements CreateAccount,BankTeller{
 	String name,mobileNo,address;
 	String accountType;
 	final int minimumBalance=1000;
+	
 	Banking(String name,int age,String mobileNo,String address,String accountType,float curBalance){
 		this.name=name;
 		this.age=age;
@@ -12,6 +13,7 @@ public class Banking implements CreateAccount,BankTeller{
 		this.address=address;
 		this.accountType=accountType;
 		this.curBalance=curBalance;
+		
 	}
 //	public void getUserDetails() {
 //		System.out.println("UserName:"+name+" Age:"+age+" MobileNo:"+mobileNo+" Address:"+address);

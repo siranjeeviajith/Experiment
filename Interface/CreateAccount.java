@@ -1,6 +1,7 @@
 
 public interface CreateAccount {
       //  void getUserDetails();
+	int A=10;
         void getAccountType();
         void getMinimumBalance();
         void showCurrentBalance();

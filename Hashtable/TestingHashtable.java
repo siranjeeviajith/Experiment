@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.TreeMap;
 
 import javax.swing.text.html.HTMLDocument.Iterator;
 
@@ -20,6 +21,7 @@ public class TestingHashtable extends HashMap implements Map {
 		ht.put(70,"ram6");
 		ht.put(80,"ram7");
 		ht.put(90,"ram8");
+		
 		/*     Debugging output before adding 8 th element   */
 		/*put() returned	null	
 args	String[0]  (id=25)	
@@ -160,8 +162,8 @@ ht	Hashtable<K,V>  (id=33)
 		
 		Map ht1=new TestingHashtable();//default Capacity
 		
-		ht1.put(11,"ram0");
-		ht1.put(12,"ram1");
+		ht1.put(null,"ram0");
+		ht1.put(null,"ram1");
 		ht1.put(23,"ram2");
 		ht1.put(34,"ram3");
 		ht1.put(45,"ram4");
@@ -177,7 +179,7 @@ ht	Hashtable<K,V>  (id=33)
 	  ht1.put(150,"hari");
 	  ht1.put(160,"rubesh");
 	  ht1.put("hariharan","kannan");
-	  
+	 
 		
 		System.out.println(ht);
 		System.out.println(ht1);

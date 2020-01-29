@@ -1,10 +1,10 @@
 
  class PersonalDetails {
-	int age;
+	static int age;
 	String name;
 	String mobileNo;
-	static {
-		System.out.println("Class is loaded");
+	static void show(){
+		System.out.println("static is loaded");
 	}
 	public PersonalDetails() {//Non Parameterized constructor; 
 		
@@ -13,6 +13,10 @@
 		this.name=name;
 		this.age=age;
 		this.mobileNo=mobileNo;
+		
+	}
+	public void callStatic() {
+		
 	}
 
 }

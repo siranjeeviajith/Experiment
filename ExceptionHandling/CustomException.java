@@ -1,7 +1,8 @@
 
 public class CustomException extends Exception {
   public CustomException(String s){
-	   super(s);
+	   //System.out.println(s);
+	  super(s);
    }
 
 

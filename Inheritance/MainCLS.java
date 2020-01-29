@@ -6,6 +6,8 @@ class MainCLS {
 		Animal obj=new Animal();
 		Dog labrador=new Dog("Dog","LabradorDog",6);
 		Cat newCat=new Cat("Cat","newCat",4);
+		Animal dog=new Dog();
+		
 		obj.showAnimalDetails(obj);
 		labrador.showAnimalDetails(labrador);
 		newCat.showAnimalDetails(newCat);
